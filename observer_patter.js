@@ -68,3 +68,15 @@ provider.unsubscribe(observer4);
 provider.addMessage('for all again and again', '');
 provider.unsubscribe(observer3);
 provider.unsubscribe(observer4);
+
+/**output
+message for for 1 with id 1
+message for for 2 with id 2
+message for for all with id 1
+message for for all with id 2
+message for for all again with id 2
+message for for all again with id 4
+message for for all again with id 3
+message for for all again and again with id 2
+message for for all again and again with id 3
+**/
